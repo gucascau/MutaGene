@@ -3,7 +3,7 @@
 setwd("/Users/xinwang/Documents/Projects/Proposal/Figure1")
 library(ggplot2)
 library(reshape2)
-Mutation<-read.table("TCGA_mutation_cna_clinical_combined3.txt",header = T,sep = "\t", na.strings = NA, fill = T)
+Mutation<-read.table("Association_RawData.txt",header = T,sep = "\t", na.strings = NA, fill = T)
 attach(Mutation)
 
 ####### Here we need to remove some samples and modified the age 
