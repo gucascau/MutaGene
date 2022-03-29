@@ -13,7 +13,11 @@ R
 
 ### Data collection and quality control
 
-MAF file was collected from Multi-Cancer Mutation calling in the TCGA cohort. TCGA clinical (demographic, treatment, pathologic, and survival data) and molecular characterization data (mRNA, protein expression) from 33 cancer types were collected from the cBioPortal (https://www.cbioportal.org/datasets). Copy number variation previously defined using ABSOLUTE-estimated purity and ploidy values of each sample were obtained from the PancanAtlas publication page (https://gdc.cancer.gov/about-data/publications/pancanatlas). Predicted SNV neoantigen counts and peptide binding data from NetMHCpan were also collected from the PancanAtlas publication page (https://gdc.cancer.gov/about-data/publications/panimmune). Cancer-related gene mutations and clinical data from 1662 metastasis patients treated with immune checkpoint inhibitors (ICI) were collected from MSKCC (https://www.cbioportal.org/study/summary?id=tmb_mskcc_2018). 
+MAF file was collected from Multi-Cancer Mutation calling in the TCGA cohort. 
+TCGA clinical (demographic, treatment, pathologic, and survival data) and molecular characterization data (mRNA, protein expression) from 33 cancer types were collected from the cBioPortal (https://www.cbioportal.org/datasets). 
+Copy number variation previously defined using ABSOLUTE-estimated purity and ploidy values of each sample were obtained from the PancanAtlas publication page (https://gdc.cancer.gov/about-data/publications/pancanatlas). 
+Predicted SNV neoantigen counts and peptide binding data from NetMHCpan were also collected from the PancanAtlas publication page (https://gdc.cancer.gov/about-data/publications/panimmune). 
+Cancer-related gene mutations and clinical data from 1662 metastasis patients treated with immune checkpoint inhibitors (ICI) were collected from MSKCC (https://www.cbioportal.org/study/summary?id=tmb_mskcc_2018). 
 
 ### Clinical association with mutation load, indel load and CNV burdens
 
