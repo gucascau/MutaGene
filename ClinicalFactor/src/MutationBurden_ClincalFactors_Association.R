@@ -11,7 +11,7 @@ attach(Mutation)
 
 ############# print Pvalue of Mutation burden and associated factor into file
 
-test<-read.table("Mutationload_Pvalue_v0815.txt",header = T, sep = "\t")
+test<-read.table("SNVburden_Pvalue.txt",header = T, sep = "\t")
 
 test_melted<-melt(test,id="Type")
 head(test_melted)
@@ -34,7 +34,7 @@ p+geom_point( aes(size=value),colour= ifelse(test_melted$value>1.301029996,"red"
 
 ###
 ###############
-test<-read.table("Indelload_Pvalue_v0815.txt",header = T, sep = "\t")
+test<-read.table("Indelburden_Pvalue.txt",header = T, sep = "\t")
 
 test_melted<-melt(test,id="Type")
 head(test_melted)
@@ -58,7 +58,7 @@ p+geom_point( aes(size=value),colour= ifelse(test_melted$value>1.301029996,"red"
 
 
 ### Draw the figure for Figure 1a CNV
-test<-read.table("CNVload_Pvalue_Allfactors_v0815.txt",header = T, sep = "\t")
+test<-read.table("CNVburden_Pvalue.txt",header = T, sep = "\t")
 
 test_melted<-melt(test,id="Type")
 head(test_melted)
