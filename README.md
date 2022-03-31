@@ -38,12 +38,12 @@ Two_Clinical_status_association_Pvalue.R
 
 ### Mutator identification
 
-1. calculate P1 and P2 value for each genes based on their existence matrix and mutaiton load information using Mann-Whitney U test
+1. calculate P1 and P2 value for each genes based on their existence matrix and SNV/Indel/CNV burden information using Mann-Whitney U test
 
 perl MutatorIdentification/MutatorIdentification.pl 
             
-           		-i: query files of nonsilent mutations statistics (Mutation_information.txt)
-			-g: index files of sample mutation load (mc3)
+           		-i: query files of mutations statistics (Mutation_information.txt)
+			-g: index files of sample gene mutations (mc3)
 			-q: request gene lists
 			-s: cancer type
            
