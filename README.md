@@ -6,7 +6,10 @@ The pipeline is to identify potentials mutators that can drive the changes of tu
 ## Install Prerequesites
 GNU utilities
 Perl -- 
-    module requirement: Statistics::Test ; Statistics::R ;  List::Util
+    module requirement:
+    Statistics::Test ; 
+    Statistics::R ;  
+    List::Util
 R
 
 ## Tutorial 
