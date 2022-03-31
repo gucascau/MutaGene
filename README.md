@@ -23,7 +23,7 @@ Copy number variation previously defined using ABSOLUTE-estimated purity and plo
 Predicted SNV neoantigen counts and peptide binding data from NetMHCpan were also collected from the PancanAtlas publication page (https://gdc.cancer.gov/about-data/publications/panimmune). 
 Cancer-related gene mutations and clinical data from 1662 metastasis patients treated with immune checkpoint inhibitors (ICI) were collected from MSKCC (https://www.cbioportal.org/study/summary?id=tmb_mskcc_2018). 
 
-### Clinical association with mutation load, indel load and CNV burdens
+### Clinical association with SNV burden, indel burden and CNV burdens
 
 1. Calculate the P value for age, tumor stage, race using a two-way ANOVA
 Mutiple_Clinical_status_association_Pvalue.R 
@@ -34,7 +34,7 @@ Two_Clinical_status_association_Pvalue.R
 
 1. Remove patients with radiation
 2. Remove patients with smoking 
-3. Remove patients with extremely high mutation, indel load and CNV burdens.
+3. Remove patients with extremely high SNV burden, indel burden and CNV burdens.
 
 ### Mutator identification
 
