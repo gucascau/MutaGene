@@ -47,10 +47,8 @@ perl MutatorIdentification/MutatorIdentification.pl
 			-q: request gene lists
 			-s: cancer type
            
- 2. Extract the mutators from different cancer types : require both P1 and P2 <=0 .05
+ 2. Extract the mutators from different cancer types : require both P1 and P2 <=0 .05 and larger than 2.
  
-for i in *mutationload.p1p2.txt; do perl -ne '{chomp; my ($p1,$p2,$mut1,$mut2,$mut3,$freq)=(split/\t/,$_)[1,2,5,6,7,8]; if ($p1>=0 && $p1<=0.05 && $p2>=0 && $p2<=0.05 && $mut1>$mut2 && $mut1>$mut3 && $freq>2){print "$_\n"}}' ${i} >${i}.mutators.txt; done
-
 ### DDRM Analysis
 
 ### Immunotherapy Treatment
