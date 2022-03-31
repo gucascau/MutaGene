@@ -2,9 +2,9 @@
 
 
 # author:wangxin
-# contact: xwang4@houstonmethodist.org
+# contact: xin.wang@childrens.harvard.edu
 # PI: kaifu Chen
-# contact: kchen2@houstonmethodist.org
+# contact: Kaifu.chen@childrens.harvard.edu
 
 #######################################################################################################################################################################
 #### Function: To extract TCGA samples with radiations 
