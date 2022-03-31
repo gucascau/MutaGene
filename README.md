@@ -39,14 +39,14 @@ Two_Clinical_status_association_Pvalue.R
 ### Mutator identification
 
 1. calculate P1 and P2 value for each genes based on their existence matrix and SNV/Indel/CNV burden information using Mann-Whitney U test
-
+```
 perl MutatorIdentification/MutatorIdentification.pl 
             
            		-i: query files of mutations statistics (Mutation_information.txt)
 			-g: index files of sample gene mutations (mc3)
 			-q: request gene lists
 			-s: cancer type
-           
+ ```          
  2. Extract the mutators from different cancer types : require both P1 and P2 <=0 .05 and larger than 2.
  
 ### DDRM Analysis
