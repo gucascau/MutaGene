@@ -1,5 +1,4 @@
 # MutaGene
-MutaGene
 
 Genomic instability is a hallmark of most cancers and presumably results from dysfunctions of mutator genes. Yet a catalogue of mutator genes and their roles in cancer is lacking. In this work, we developed a computation method to analyze the TCGA dataset and identified 1534 mutator genes.
 
